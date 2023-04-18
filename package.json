@@ -1,16 +1,14 @@
 {
   "name": "@h7ml/deletenodemodules",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is a Node.js project that can clean up all redundant 'node_modules' folders in the working directory using the 'rimraf' library.",
-  "main": "dist/index.js",
+  "main": "index.ts",
   "bin": {
-    "deletenodemodules": "dist/index.js"
+    "deletenodemodules": "npx ts-node index.ts"
   },
   "scripts": {
     "start": "npx ts-node index.ts",
-    "dev": "node dist/index.js",
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "dev": "npx ts-node index.ts"
   },
   "keywords": [
     "node_modules",

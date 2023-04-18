@@ -60,12 +60,6 @@ npm install
 npm run start
 ```
 
-#### 构建脚本
-
-```bash
-npm run build
-```
-
 ### 许可证`MIT`
 
 详见 [LICENSE](./LICENSE) 文件。
